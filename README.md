@@ -1,6 +1,7 @@
 # blockchain-showcase
 
-to run backend:
+## to run backend:
+
 1) get repo
 
 2)under source dir run 'npm install'
@@ -17,7 +18,7 @@ SERVER_API_DOMAIN=http://localhost:8080
 
 4)then run app with 'node server.js'
 
-# endpoints
+## endpoints
 
 Every endpoint returns JSON object.
 
