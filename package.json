@@ -5,11 +5,11 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://zyevegor@bitbucket.org/zyevegor/neuroiot-server.git"
+    "url": "git+https://github.com/ega-forever/blockchain-showcase.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/zyevegor/neuroiot-server#readme",
+  "homepage": "https://github.com/ega-forever/blockchain-showcase",
   "dependencies": {
     "body-parser": "^1.15.2",
     "dotenv": "^2.0.0",
