@@ -1,3 +1,10 @@
+/**
+ * @AddMessage
+ * @unit - remove message from db and validate
+ */
+
+
+
 const expect = require('chai').expect,
   Promise = require('bluebird'),
   request = Promise.promisify(require('request')),
@@ -29,7 +36,6 @@ module.exports = ()=> {
         done();
       })
       .catch((err) => {
-        //log.info('err =', err);
         done(err);
       });
   });

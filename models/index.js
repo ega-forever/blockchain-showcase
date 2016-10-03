@@ -1,4 +1,4 @@
-var MessageSchema = require('./MessageSchema');
+const MessageSchema = require('./MessageSchema');
 
 module.exports = {
   MessageSchema: MessageSchema

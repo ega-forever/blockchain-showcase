@@ -1,3 +1,9 @@
+/**
+ * @DeleteMessageInterceptor delete message
+ * @params in req.body: {_id:message_id}
+ */
+
+
 const messageCtrl = require('../../controllers').messageCtrl,
   messages = require('../../factories').messages;
 

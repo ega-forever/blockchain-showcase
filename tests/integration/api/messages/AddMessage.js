@@ -1,9 +1,14 @@
+/**
+ * @AddMessage
+ * @unit - add message in db
+ */
+
+
+
 const expect = require('chai').expect,
   Promise = require('bluebird'),
   request = Promise.promisify(require('request')),
-  shared = require('../../shared'),
-  _ = require('lodash');
-
+  shared = require('../../shared');
 
 module.exports = ()=> {
 
@@ -18,7 +23,6 @@ module.exports = ()=> {
         done();
       })
       .catch((err) => {
-        //log.info('err =', err);
         done(err);
       });
   });

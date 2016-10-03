@@ -1,3 +1,7 @@
+/**
+ * @GetMessagesInterceptor get messages
+ */
+
 const messageCtrl = require('../../controllers').messageCtrl,
   messages = require('../../factories').messages;
 

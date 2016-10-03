@@ -1,3 +1,8 @@
+/**
+ * @factories root point
+ */
+
+
 const GenericMessageFactory = require('./messages/GenericMessageFactory');
 
 module.exports = {

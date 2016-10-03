@@ -1,10 +1,12 @@
+/**
+ * @entryPoint app entry point
+ */
 const express = require('express'),
   mongoose = require('mongoose'),
   config = require('./config'),
   routes = require('./routes'),
   cluster = require('cluster'),
   numCPUs = require('os').cpus().length,
-  _ = require('lodash'),
   bodyParser = require('body-parser'),
   session = require('express-session');
 

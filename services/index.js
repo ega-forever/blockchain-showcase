@@ -1,3 +1,8 @@
+/**
+ * @services root point
+ */
+
+
 const CreateMessagesInterceptor = require('./messages/CreateMessageInterceptor'),
   GetMessageInterceptor = require('./messages/GetMessagesInterceptor'),
   GetMessageBodyInterceptor = require('./messages/GetMessageBodyInterceptor'),

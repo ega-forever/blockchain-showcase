@@ -1,3 +1,8 @@
+/**
+ * @GetMessageBodyInterceptor get message's body
+ * @params in req.params: {id:message_id}
+ */
+
 const messageCtrl = require('../../controllers').messageCtrl,
   messages = require('../../factories').messages;
 

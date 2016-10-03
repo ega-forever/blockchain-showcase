@@ -1,3 +1,9 @@
+/**
+ * @EditMessageInterceptor edit message
+ * @params in req.body: {header:message_header, body:message_body}
+ */
+
+
 const messageCtrl = require('../../controllers').messageCtrl,
   MessageModel = require('../../models').MessageSchema,
   messages = require('../../factories').messages;

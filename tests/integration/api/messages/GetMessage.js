@@ -1,3 +1,10 @@
+/**
+ * @GetMessage
+ * @unit - get message from db and it's body
+ */
+
+
+
 const expect = require('chai').expect,
   Promise = require('bluebird'),
   request = Promise.promisify(require('request')),
@@ -21,7 +28,6 @@ module.exports = ()=> {
         done();
       })
       .catch((err) => {
-        //log.info('err =', err);
         done(err);
       });
   });
@@ -39,7 +45,6 @@ module.exports = ()=> {
         done();
       })
       .catch((err) => {
-        //log.info('err =', err);
         done(err);
       });
   });

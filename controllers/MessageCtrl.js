@@ -1,6 +1,9 @@
+/**
+ * @MessageCtrl handle operations under MessageSchema
+ */
+
 const messageSchema = require('../models').MessageSchema,
   messages = require('../factories').messages,
-  _ = require('lodash'),
   config = require('../config'),
   Promise = require('bluebird');
 

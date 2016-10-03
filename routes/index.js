@@ -1,7 +1,9 @@
-var services = require('../services'),
+/**
+ * @route register express routes and bind to services
+ */
+const services = require('../services'),
   messages = require('../factories').messages,
-  config = require('../config'),
-  _ = require('lodash');
+  config = require('../config');
 
 module.exports = app=> {
 

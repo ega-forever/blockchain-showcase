@@ -1,11 +1,11 @@
 require('dotenv/config');
-var shared = require('./shared');
-var api = require('./api');
+const shared = require('./shared'),
+  api = require('./api');
 
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
-describe('tests', function () {
+describe('tests', ()=> {
 
   describe('POST api/messages (create message)', api.messages.addMessage);
 
