@@ -6,7 +6,7 @@
 
 2) under source dir run 'npm install'
 
-3) create .env file in source dir.Their you can specify your mongo url (SERVER_API_MONGO_URL), 
+3) create .env file in source dir. There, you can specify your mongo url (SERVER_API_MONGO_URL),
 
 domain (SERVER_API_DOMAIN) and express port (SERVER_API_PORT). Default values are:
 
