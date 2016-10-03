@@ -4,7 +4,7 @@
 
 1) get repo
 
-2)under source dir run 'npm install'
+2) under source dir run 'npm install'
 
 3) create .env file in source dir.Their you can specify your mongo url (SERVER_API_MONGO_URL), 
 
