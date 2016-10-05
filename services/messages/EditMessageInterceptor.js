@@ -5,19 +5,16 @@
 
 
 const messageCtrl = require('../../controllers').messageCtrl,
-  MessageModel = require('../../models').MessageSchema,
-  messages = require('../../factories').messages;
+  messages = require('../../factories').messages,
+  _ = require('lodash');
 
 module.exports = (req, res, next)=> {
 
-
-  let messageModel = new MessageModel(req.body);
-
-  if (messageModel.validateSync() != null || req.body._id == null) {
-   return res.send(messages.Generic.fail);
+  if (req.body._id == null || req.body.header == null) {
+    return res.send(messages.Generic.fail);
   }
 
-  messageCtrl.mongoose.modify({_id: messageModel._id}, messageModel)
+  messageCtrl.mongoose.modify({_id: req.body._id}, _.pick(req.body, ['_id', 'header', 'body']))
     .then(()=>next())
     .catch(()=>res.send(messages.Generic.fail))
 
