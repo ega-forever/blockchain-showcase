@@ -16,7 +16,9 @@ SERVER_API_MONGO_URL=mongodb://localhost:27017/data
 
 SERVER_API_DOMAIN=http://localhost:8080
 
-4)then run app with 'node server.js'
+4) optionally - add your static frontend site to public dir
+
+5) then run app with 'node server.js'
 
 ## endpoints
 
