@@ -3,7 +3,8 @@
  */
 const services = require('../services'),
   messages = require('../factories').messages,
-  config = require('../config');
+  config = require('../config'),
+  express = require('express');
 
 module.exports = app=> {
 
@@ -30,9 +31,7 @@ module.exports = app=> {
   });
 
 
-  app.get('/', (req, res)=> {
-    res.send(messages.Generic.success);
-  });
+  app.use('/', express.static('public'));
 
 
 //** messages **//

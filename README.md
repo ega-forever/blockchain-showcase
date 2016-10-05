@@ -24,7 +24,7 @@ Every endpoint returns JSON object.
 
 |#  |Type     |Route             |Response                                     |Params                                                       |Aim                |
 |---|:--------|:-----------------|:--------------------------------------------|:------------------------------------------------------------|------------------:|
-|1  |GET      |/                 |{"success": true}                            |                                                             |root route         |
+|1  |GET      |/                 |it's public dir                              |                                                             |frontend           |
 |2  |POST     |/api/messages     |{"success": true}                            |header: message_header, body: message_body                   |create message     |
 |3  |PUT      |/api/messages     |{"success": true}                            |header: message_header, body: message_body,_id:message_id    |edit message       |
 |4  |DELETE   |/api/messages     |{"success": true}                            |_id:message_id                                               |remove message     |
