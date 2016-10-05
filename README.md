@@ -1,4 +1,4 @@
-# blockchain-showcase
+# blockchain-showcase-backend
 
 ## to run backend:
 
